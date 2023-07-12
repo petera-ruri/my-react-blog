@@ -1,0 +1,13 @@
+.navbar, .popUpMenu {
+    display: flex;
+    justify-content:space-between;
+    background-position: 0vh;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/018/751/832/original/orange-abstract-background-free-vector.jpg');
+    color:brown;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:brown
+}
