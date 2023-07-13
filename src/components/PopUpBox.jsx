@@ -8,7 +8,7 @@ const PopupBox = () => {
   };
 
   return (
-    <div>
+    <div className="popup-wrapper">
       <img
         height='80px'
         src="https://cdn-icons-png.flaticon.com/256/4856/4856386.png"
@@ -16,12 +16,12 @@ const PopupBox = () => {
         onClick={togglePopup}
       />
       {isOpen && (
-        <div className="popup">
-          <div className="popup-content">
-            <h2>Popup Content</h2>
-            <p>This is the content of the popup box.</p>
-            <button onClick={togglePopup}>Close</button>
-          </div>
+        <div className="popup-content">
+          <h2>Popup Content</h2>
+          <p>This is the content of the popup box.</p>
+          <button onClick={togglePopup} className="popup-close">
+            Close
+          </button>
         </div>
       )}
     </div>
@@ -29,5 +29,3 @@ const PopupBox = () => {
 };
 
 export default PopupBox;
-
-

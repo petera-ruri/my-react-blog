@@ -9,9 +9,7 @@ function NavBar() {
            <h1>About</h1>
            <h1>Contact</h1>
            <h1>Socials</h1>
-           <div>
            <PopupBox />
-           </div>
         </div>
         </>
     )

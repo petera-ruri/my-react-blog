@@ -1,0 +1,32 @@
+.popup-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .popup-toggle {
+    background-color: #eaeaea;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .popup-content {
+    height:800px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-width: -200px;
+    z-index: 1;
+  }
+  
+  .popup-close {
+    background-color: #eaeaea;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
